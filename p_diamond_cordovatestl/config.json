@@ -1,0 +1,40 @@
+﻿{
+	"id": "project_diamond",
+	"version": "1.0",
+	"name": "p_diamond",
+	"description": "one button game that is super hard. ",
+	"author": "Michael David",
+	"email": "",
+	"website": "",
+	"fullscreen": "false",
+	"useragent": null,
+	"orientation": "landscape",
+	"icons": [{
+		"src": "www/icon-256.png",
+		"width": 256,
+		"height": 256,
+		"density": "xxxhdpi"
+	}, {
+		"src": "www/icon-128.png",
+		"width": 128,
+		"height": 128,
+		"density": "xhdpi"
+	}],
+	"plugins": [
+		{ "id": "cordova-plugin-file", "version": null },
+		{ "id": "cordova-plugin-game-center", "version": null },
+		{ "id": "cordova-plugin-httpd", "version": null },
+		{ "id": "cordova-plugin-inappbrowser", "version": null },
+		{ "id": "cordova-plugin-whitelist", "version": null },
+		{ "id": "cordova-plugin-wkwebview-engine", "version": null }
+	],
+	"android": {
+		"min": 21,
+		"target": 21,
+		"plugins": []
+	},
+	"ios": {
+		"target": "8.0",
+		"plugins": []
+	}
+}
